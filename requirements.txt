@@ -1,6 +1,7 @@
 filetype
 langchain
 langchain_community
+langchain_experimental
 pandas
 plotly
 pinecone_client
