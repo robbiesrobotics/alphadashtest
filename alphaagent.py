@@ -1,5 +1,5 @@
 
-from langchain import create_pandas_dataframe_agent
+from langchain_experimental import create_pandas_dataframe_agent
 from langchain.utilities import WolframAlphaAPIWrapper, GoogleSearchAPIWrapper
 from langchain.prompts import ChatPromptTemplate
 from langchain.agents import Tool, AgentType, initialize_agent
