@@ -47,7 +47,7 @@ memory = ConversationBufferMemory(
 ############ Create LLMs (Language Models) / Agents / Special Tools  #######################
 wolfram = WolframAlphaAPIWrapper()
 search = GoogleSearchAPIWrapper()
-llm = ChatOpenAI(temperature=0.5, model="gpt-4o", streaming = True)
+llm = ChatOpenAI(temperature=0.5, model="gpt-3.5-turbo-0613", streaming = True)
 #llm3 = ChatOpenAI(temperature = 0.6, model= "gpt-4-0613", streaming= True)
 llm2 = ChatOpenAI(temperature = 0, model= "gpt-3.5-turbo-0613", streaming= True)
 #email_agent = initialize_agent(toolkit.get_tools(), llm2, agent= AgentType.STRUCTURED_CHAT_ZERO_SHOT_REACT_DESCRIPTION, verbose = True,  handle_parsing_errors = True, memory = memory)
