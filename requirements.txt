@@ -2,7 +2,6 @@ filetype
 langchain
 pandas
 plotly
-ydata_profiling
 pinecone_client
 pygwalker
 streamlit
