@@ -12,7 +12,6 @@ import PyPDF2
 import pandas as pd
 from PIL import Image
 import openpyxl
-import xlrd
 import database as db
 import streamlit_authenticator as stauth
 import re  # Import the regular expressions module
